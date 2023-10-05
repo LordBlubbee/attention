@@ -44,6 +44,15 @@
                 HorizontalOptions="Center" />
             </HorizontalStackLayout>
             
+            <Label x:Name="waterAdjustTex"
+               Text="ChangeTex"
+               FontSize="18"
+               FontFamily="OswaldBold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+            <Slider Maximum="3" x:Name="waterAdjust"
+                ValueChanged="OnWaterAdjust" />
+
 
         </VerticalStackLayout>
     </ScrollView>

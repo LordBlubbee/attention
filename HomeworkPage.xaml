@@ -43,6 +43,14 @@
                 Clicked="pressWork"
                 HorizontalOptions="Center" />
             </HorizontalStackLayout>
+            <Label x:Name="workAdjustTex"
+               Text="ChangeTex"
+               FontSize="18"
+               FontFamily="OswaldBold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+            <Slider Maximum="3" x:Name="workAdjust"
+                ValueChanged="OnWorkAdjust" />
             
 
         </VerticalStackLayout>

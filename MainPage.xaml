@@ -10,6 +10,7 @@
             VerticalOptions="Center">
 
             <Image
+                x:Name="Attention"
                 Source="attentionsprite.png"
                 SemanticProperties.Description="This is your guardian."
                 HeightRequest="200"

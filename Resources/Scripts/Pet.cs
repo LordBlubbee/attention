@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Plugin.Maui.Audio;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -34,7 +35,7 @@ namespace ATTENTION.Resources.Scripts
         private static System.Timers.Timer aTimer;
 
         public event PropertyChangedEventHandler PropertyChanged;
-        public static void Main()
+        public static void MainRun()
         {
             Console.WriteLine("Running Main");
             // Create a timer and set a two second interval.
@@ -81,7 +82,7 @@ namespace ATTENTION.Resources.Scripts
             if (pet == null)
             {
                 pet = this;
-                Main();
+                MainRun();
                 loadGame();
             }
         }
@@ -181,7 +182,7 @@ namespace ATTENTION.Resources.Scripts
         }
         private int FoodTimer()
         {
-            return 60; //Minutes
+            return (int)Math.Round(1440 / healthPerDay);
         }
         public void FoodReduce()
         {
@@ -192,9 +193,14 @@ namespace ATTENTION.Resources.Scripts
             }
             needFoodTime = needFoodTime.AddMinutes(FoodTimer());
         }
+
+        public float waterPerDay;
+        public float healthPerDay;
+        public float exercisePerDay;
+        public float workPerDay;
         private int WaterTimer()
         {
-            return 30; //10 Minutes (-240 per day) (-72 per day)
+            return (int)Math.Round(1440/waterPerDay); //10 Minutes (-240 per day) (-72 per day = 30)
         }
         public void WaterReduce()
         {
@@ -208,7 +214,7 @@ namespace ATTENTION.Resources.Scripts
         }
         private int AttentionTimer()
         {
-            return 60; //Minutes
+            return (int)Math.Round(1440 / workPerDay);
         }
         public void AttentionReduce()
         {
@@ -221,7 +227,7 @@ namespace ATTENTION.Resources.Scripts
         }
         private int CompanyTimer()
         {
-            return 60; //Minutes
+            return (int)Math.Round(1440 / exercisePerDay);
         }
         public void CompanyReduce()
         {
@@ -234,16 +240,21 @@ namespace ATTENTION.Resources.Scripts
         }
         private int RestTimer()
         {
-            return 15; //Minutes
+            return 10; //Minutes
         }
         public void RestReduce()
         {
             needRest--;
-            if (needRest <= -50)
+            if (needRest <= -10)
             {
                 needRestTime = DateTime.Now;
             }
             needRestTime = needRestTime.AddMinutes(RestTimer());
+        }
+        public async void PlayAudio(string str)
+        {
+            var audioPlayer = AudioManager.Current.CreatePlayer(await FileSystem.OpenAppPackageFileAsync(str));
+            audioPlayer.Play();
         }
         public void loadGame()
         {
@@ -262,6 +273,10 @@ namespace ATTENTION.Resources.Scripts
                 needCompany = Preferences.Default.Get<float>("Company", 100f);
                 needAttention = Preferences.Default.Get<float>("Attention", 100f);
                 needRest = Preferences.Default.Get<float>("Rest", 100f);
+                waterPerDay = Preferences.Default.Get<float>("dayWater", 72f);
+                healthPerDay = Preferences.Default.Get<float>("dayHealth", 24f);
+                workPerDay = Preferences.Default.Get<float>("dayWork", 24f);
+                exercisePerDay = Preferences.Default.Get<float>("dayExercise", 24f);
             }
         }
         public Pet savePet { get; set; }
@@ -282,6 +297,14 @@ namespace ATTENTION.Resources.Scripts
             };*/
             //string Save = JsonConvert.SerializeObject(Pet.pet);
             //Pet savedPet = JsonConvert.DeserializeObject<Pet>(Save);
+
+            /* TEST RESET
+            needWater = -50;
+            needRest = -10;
+            needFood = -50;
+            needCompany = -50;
+            needAttention = -50;*/
+
             var dataStore = DependencyService.Get<IDataStore<Pet>>();
             dataStore.UpdateItem(Pet.pet);
             //
@@ -296,6 +319,10 @@ namespace ATTENTION.Resources.Scripts
             Preferences.Default.Set("Company", needCompany);
             Preferences.Default.Set("Attention", needAttention);
             Preferences.Default.Set("Rest", needRest);
+            Preferences.Default.Set("dayHealth", healthPerDay);
+            Preferences.Default.Set("dayWater", waterPerDay);
+            Preferences.Default.Set("dayWork", workPerDay);
+            Preferences.Default.Set("dayExercise", exercisePerDay);
         }
     }
 }

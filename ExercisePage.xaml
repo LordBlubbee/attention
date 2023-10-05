@@ -34,7 +34,6 @@
             
             <!--Listview, bindings-->
 
-            <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
                 <Button
                 x:Name="WALK"
                 Text="Go for a walk"
@@ -42,15 +41,22 @@
                 FontFamily="OswaldBold"
                 Clicked="pressWalk"
                 HorizontalOptions="Center" />
-				<Button
+                <Button
                 x:Name="WORKOUT"
                 Text="10 minute workout"
                 SemanticProperties.Hint="Click to do workout"
                 FontFamily="OswaldBold"
                 Clicked="pressWorkout"
                 HorizontalOptions="Center" />
-            </HorizontalStackLayout>
-            
+            <Label x:Name="exerciseAdjustTex"
+               Text="ChangeTex"
+               FontSize="18"
+               FontFamily="OswaldBold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+            <Slider Maximum="3" x:Name="exerciseAdjust"
+                ValueChanged="OnExerciseAdjust" />
+
 
         </VerticalStackLayout>
     </ScrollView>

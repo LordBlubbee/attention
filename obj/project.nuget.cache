@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UlEoEH7mQstTd+rFJqmTY8da3vostjG5QHriYSaY+B5EkC/PhkMQ+o5F0Hs0twTNpk4lxJ3S62blaUb8gNJYxw==",
+  "dgSpecHash": "8jp5Xgn1e6kH2PxLdSk3qpQDgn8HEWPhFGfCHFGIerslcA+GcQmTBcNoMtcV+sYIwEuvqLl+KaMKB/yX7+6ODg==",
   "success": true,
   "projectFilePath": "C:\\Users\\micro\\source\\repos\\ATTENTION\\ATTENTION\\ATTENTION.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.1\\microsoft.windows.sdk.buildtools.10.0.22621.1.nupkg.sha512",
     "C:\\Users\\micro\\.nuget\\packages\\microsoft.windowsappsdk\\1.1.5\\microsoft.windowsappsdk.1.1.5.nupkg.sha512",
     "C:\\Users\\micro\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\micro\\.nuget\\packages\\plugin.maui.audio\\2.0.0\\plugin.maui.audio.2.0.0.nupkg.sha512",
     "C:\\Users\\micro\\.nuget\\packages\\xamarin.android.glide\\4.13.2.2\\xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "C:\\Users\\micro\\.nuget\\packages\\xamarin.android.glide.annotations\\4.13.2.2\\xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
     "C:\\Users\\micro\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.13.2.2\\xamarin.android.glide.disklrucache.4.13.2.2.nupkg.sha512",

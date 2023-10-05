@@ -673,6 +673,12 @@
     <AppxPackagedFile Include="C:\Users\micro\.nuget\packages\microsoft.windowsappsdk\1.1.5\lib\net5.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\.nuget\packages\newtonsoft.json\13.0.3\lib\net6.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\.nuget\packages\plugin.maui.audio\2.0.0\lib\net6.0-windows10.0.19041\Plugin.Maui.Audio.dll">
+      <PackagePath>Plugin.Maui.Audio.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\micro\.nuget\packages\microsoft.graphics.win2d\1.0.4\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
     </AppxPackagedFile>
@@ -693,6 +699,36 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\Resources\Raw\ost.mp3">
+      <PackagePath>ost.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\Resources\Raw\ost2.ogg">
+      <PackagePath>ost2.ogg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\Resources\Raw\sfx_press.ogg">
+      <PackagePath>sfx_press.ogg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\Resources\Raw\sfx_research.ogg">
+      <PackagePath>sfx_research.ogg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\Resources\Raw\sfx_research2.ogg">
+      <PackagePath>sfx_research2.ogg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\attentionspriteSplashScreen.scale-100.png">
+      <PackagePath>attentionspriteSplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\attentionspriteSplashScreen.scale-125.png">
+      <PackagePath>attentionspriteSplashScreen.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\attentionspriteSplashScreen.scale-150.png">
+      <PackagePath>attentionspriteSplashScreen.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\attentionspriteSplashScreen.scale-200.png">
+      <PackagePath>attentionspriteSplashScreen.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\attentionspriteSplashScreen.scale-400.png">
+      <PackagePath>attentionspriteSplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
@@ -858,6 +894,171 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionexercise1.scale-100.png">
+      <PackagePath>attentionexercise1.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionexercise1.scale-125.png">
+      <PackagePath>attentionexercise1.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionexercise1.scale-150.png">
+      <PackagePath>attentionexercise1.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionexercise1.scale-200.png">
+      <PackagePath>attentionexercise1.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionexercise1.scale-400.png">
+      <PackagePath>attentionexercise1.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionhealth1.scale-100.png">
+      <PackagePath>attentionhealth1.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionhealth1.scale-125.png">
+      <PackagePath>attentionhealth1.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionhealth1.scale-150.png">
+      <PackagePath>attentionhealth1.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionhealth1.scale-200.png">
+      <PackagePath>attentionhealth1.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionhealth1.scale-400.png">
+      <PackagePath>attentionhealth1.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionhealth2.scale-100.png">
+      <PackagePath>attentionhealth2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionhealth2.scale-125.png">
+      <PackagePath>attentionhealth2.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionhealth2.scale-150.png">
+      <PackagePath>attentionhealth2.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionhealth2.scale-200.png">
+      <PackagePath>attentionhealth2.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionhealth2.scale-400.png">
+      <PackagePath>attentionhealth2.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionhealth3.scale-100.png">
+      <PackagePath>attentionhealth3.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionhealth3.scale-125.png">
+      <PackagePath>attentionhealth3.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionhealth3.scale-150.png">
+      <PackagePath>attentionhealth3.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionhealth3.scale-200.png">
+      <PackagePath>attentionhealth3.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionhealth3.scale-400.png">
+      <PackagePath>attentionhealth3.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionsleep1.scale-100.png">
+      <PackagePath>attentionsleep1.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionsleep1.scale-125.png">
+      <PackagePath>attentionsleep1.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionsleep1.scale-150.png">
+      <PackagePath>attentionsleep1.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionsleep1.scale-200.png">
+      <PackagePath>attentionsleep1.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionsleep1.scale-400.png">
+      <PackagePath>attentionsleep1.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionsprite.scale-100.png">
+      <PackagePath>attentionsprite.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionsprite.scale-125.png">
+      <PackagePath>attentionsprite.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionsprite.scale-150.png">
+      <PackagePath>attentionsprite.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionsprite.scale-200.png">
+      <PackagePath>attentionsprite.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionsprite.scale-400.png">
+      <PackagePath>attentionsprite.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionwater1.scale-100.png">
+      <PackagePath>attentionwater1.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionwater1.scale-125.png">
+      <PackagePath>attentionwater1.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionwater1.scale-150.png">
+      <PackagePath>attentionwater1.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionwater1.scale-200.png">
+      <PackagePath>attentionwater1.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionwater1.scale-400.png">
+      <PackagePath>attentionwater1.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionwater2.scale-100.png">
+      <PackagePath>attentionwater2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionwater2.scale-125.png">
+      <PackagePath>attentionwater2.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionwater2.scale-150.png">
+      <PackagePath>attentionwater2.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionwater2.scale-200.png">
+      <PackagePath>attentionwater2.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionwater2.scale-400.png">
+      <PackagePath>attentionwater2.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionwater3.scale-100.png">
+      <PackagePath>attentionwater3.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionwater3.scale-125.png">
+      <PackagePath>attentionwater3.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionwater3.scale-150.png">
+      <PackagePath>attentionwater3.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionwater3.scale-200.png">
+      <PackagePath>attentionwater3.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionwater3.scale-400.png">
+      <PackagePath>attentionwater3.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionwater4.scale-100.png">
+      <PackagePath>attentionwater4.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionwater4.scale-125.png">
+      <PackagePath>attentionwater4.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionwater4.scale-150.png">
+      <PackagePath>attentionwater4.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionwater4.scale-200.png">
+      <PackagePath>attentionwater4.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionwater4.scale-400.png">
+      <PackagePath>attentionwater4.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionwork1.scale-100.png">
+      <PackagePath>attentionwork1.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionwork1.scale-125.png">
+      <PackagePath>attentionwork1.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionwork1.scale-150.png">
+      <PackagePath>attentionwork1.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionwork1.scale-200.png">
+      <PackagePath>attentionwork1.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\attentionwork1.scale-400.png">
+      <PackagePath>attentionwork1.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>

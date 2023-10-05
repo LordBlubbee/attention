@@ -34,7 +34,6 @@
             
             <!--Listview, bindings-->
 
-            <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
                 <Button
                 x:Name="EATSMALL"
                 Text="A healthy snack"
@@ -42,15 +41,23 @@
                 FontFamily="OswaldBold"
                 Clicked="pressHealthSmall"
                 HorizontalOptions="Center" />
-				<Button
+                <Button
                 x:Name="EATMEAL"
                 Text="A healthy lunch or dinner"
                 SemanticProperties.Hint="Click to eat"
                 FontFamily="OswaldBold"
                 Clicked="pressHealthLarge"
                 HorizontalOptions="Center" />
-            </HorizontalStackLayout>
-            
+
+            <Label x:Name="healthAdjustTex"
+               Text="ChangeTex"
+               FontSize="18"
+               FontFamily="OswaldBold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+            <Slider Maximum="3" x:Name="healthAdjust"
+                ValueChanged="OnHealthAdjust" />
+
 
         </VerticalStackLayout>
     </ScrollView>

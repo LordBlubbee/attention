@@ -10,7 +10,8 @@ public partial class WaterPage : ContentPage
 		//Google: Timer, callback event,
 		InitializeComponent();
 		updateImage();
-	}
+		setWaterNeed();
+    }
 
 	private void updateImage()
 	{
@@ -40,10 +41,21 @@ public partial class WaterPage : ContentPage
 
 	private void pressMainWater(object sender, EventArgs e)
 	{
-		Pet.pet.needWater = Math.Clamp(Pet.pet.needWater+10, 0, 100);
+        Pet.pet.PlayAudio("sfx_research.ogg");
+        Pet.pet.needWater = Math.Clamp(Pet.pet.needWater+10, 0, 100);
 		Pet.pet.saveGame();
-        Console.WriteLine("Pressing water: " + Pet.pet.needWater);
 		updateImage();
+    }
+	private void OnWaterAdjust(object sender, ValueChangedEventArgs e)
+	{
+		Pet.pet.waterPerDay = (float)e.NewValue*50f;
+		setWaterNeed();
+    }
+	private void setWaterNeed()
+	{
+		if (Pet.pet == null) return;
+        waterAdjustTex.Text = $"Water per day: {Pet.pet.waterPerDay/50f} liters";
+		waterAdjust.Value = Pet.pet.waterPerDay / 50f;
     }
 }
 

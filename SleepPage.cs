@@ -24,7 +24,8 @@ public partial class SleepPage : ContentPage
 
 	private void pressSleep(object sender, EventArgs e)
 	{
-		Pet.pet.needRest = Math.Clamp(Pet.pet.needRest + 80, 0, 110);
+        Pet.pet.PlayAudio("sfx_research2.ogg");
+        Pet.pet.needRest = Math.Clamp(Pet.pet.needRest + 80, 0, 110);
 		Pet.pet.saveGame();
 		updateImage();
     }

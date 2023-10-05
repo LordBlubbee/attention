@@ -1029,3 +1029,5 @@ C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-android\resizet
 C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\attentionsleep1.png
 C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\attentionwork1.png
 C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-android\android\assets\Newtonsoft.Json.dll
+C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-android\android\assets\Plugin.Maui.Audio.dll
+C:\Users\micro\source\repos\ATTENTION\ATTENTION\obj\Debug\net7.0-android\android\src\crc64467b05f37239e7a6\StreamMediaDataSource.java
