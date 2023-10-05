@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Water" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 325">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #ccc;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-1" points="118.84 315 58.8 10 351.2 10 291.16 315 118.84 315"/>
+  <path class="cls-2" d="m339.04,20l-56.1,285H127.06L70.96,20h268.08M363.36,0H46.64l63.98,325h188.77L363.36,0h0Z"/>
+</svg>

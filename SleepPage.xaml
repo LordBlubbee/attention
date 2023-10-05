@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ATTENTION.SleepPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+            <!--x:Name="WaterPageAmount"-->
+            <Label
+                x:Name="SleepPageAmount"
+                Text="SLEEP: X"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                FontFamily="OswaldBold"
+                HorizontalOptions="Center" />
+            
+            <Image
+                x:Name="SleepTex"
+                Source="attentionwater1.png"
+                SemanticProperties.Description="Sleep!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="You should sleep consistently!"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Nomnomnom"
+                FontSize="18"
+                FontFamily="OswaldBold"
+                HorizontalOptions="Center" />
+            
+            <!--Listview, bindings-->
+
+            <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
+                <Button
+                x:Name="Sleep"
+                Text="Go to sleep"
+                SemanticProperties.Hint="Click to sleep"
+                FontFamily="OswaldBold"
+                Clicked="pressSleep"
+                HorizontalOptions="Center" />
+            </HorizontalStackLayout>
+            
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

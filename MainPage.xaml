@@ -10,32 +10,73 @@
             VerticalOptions="Center">
 
             <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                Source="attentionsprite.png"
+                SemanticProperties.Description="This is your guardian."
                 HeightRequest="200"
                 HorizontalOptions="Center" />
 
             <Label
-                Text="Hello, World!"
+                x:Name="MsgTitle"
+                Text="PAY ATTENTION!"
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="32"
+                FontFamily="OswaldBold"
                 HorizontalOptions="Center" />
 
             <Label
-                Text="Welcome to .NET Multi-platform App UI"
+                x:Name="MsgDesc"
+                Text="Muahahahaha!"
                 SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                SemanticProperties.Description="Beep boop"
                 FontSize="18"
+                FontFamily="OswaldBold"
                 HorizontalOptions="Center" />
-
-            <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
+            
+            <!---Listview, bindings-->
+            <!--{Binding Pet.pet.needWater, Mode=OneWay}-->
+            <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Spacing="20" HeightRequest="70">
+                <Button
+                x:Name="WaterButton"
+                Text="WATER: 999"
+                SemanticProperties.Hint="Go to the Water screen"
+                Clicked="pressWater"
+                FontFamily="OswaldBold"
                 HorizontalOptions="Center" />
-
+                <Button
+                x:Name="HealthButton"
+                Text="HEALTH: 999"
+                SemanticProperties.Hint="Go to Health screen"
+                Clicked="pressHealth"
+                FontFamily="OswaldBold"
+                HorizontalOptions="Center" />
+                <Button
+                x:Name="RestButton"
+                Text="SLEEP: 999"
+                SemanticProperties.Hint="Go to Rest screen"
+                Clicked="pressRest"
+                FontFamily="OswaldBold"
+                HorizontalOptions="Center" />
+            </HorizontalStackLayout>
+            <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Spacing="20" HeightRequest="70">
+                <Button
+                x:Name="ExerciseButton"
+                Text="EXERCISE: 999"
+                SemanticProperties.Hint="Go to Exercise screen"
+                Clicked="pressExercise"
+                FontFamily="OswaldBold"
+                Padding="20"
+                HorizontalOptions="Center" />
+                <Button
+                x:Name="WorkButton"
+                Text="WORK: 999"
+                SemanticProperties.Hint="Go to Work screen"
+                Clicked="pressWork"
+                FontFamily="OswaldBold"
+                HorizontalOptions="Center" />
+            </HorizontalStackLayout>
+            
         </VerticalStackLayout>
+        
     </ScrollView>
 
 </ContentPage>

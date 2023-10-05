@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Exercise" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #999;
+        stroke: #4d4d4d;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="75.5" y="229" width="367" height="54" rx="12" ry="12" transform="translate(518 512) rotate(180)"/>
+  <rect class="cls-1" x="441" y="171" width="27" height="169" transform="translate(909 511) rotate(180)"/>
+  <rect class="cls-1" x="416" y="125" width="33" height="262" transform="translate(865 512) rotate(180)"/>
+  <rect class="cls-1" x="47" y="171" width="27" height="169"/>
+  <rect class="cls-1" x="66" y="125" width="33" height="262"/>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Water_copy" data-name="Water copy" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 325">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ccc;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="205" y1="-30.16" x2="205" y2="271.7" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".72" stop-color="#eaf9fa"/>
+      <stop offset=".73" stop-color="#e8f8f9"/>
+      <stop offset=".74" stop-color="#e1f6f7"/>
+      <stop offset=".75" stop-color="#d5f3f4"/>
+      <stop offset=".75" stop-color="#c4eef0"/>
+      <stop offset=".75" stop-color="#aee8ea"/>
+      <stop offset=".75" stop-color="#93e0e4"/>
+      <stop offset=".76" stop-color="#72d7db"/>
+      <stop offset=".76" stop-color="#4dccd2"/>
+      <stop offset=".76" stop-color="#24c1c8"/>
+      <stop offset=".76" stop-color="#20c0c7"/>
+      <stop offset="1" stop-color="#007dbf"/>
+    </linearGradient>
+  </defs>
+  <polygon class="cls-2" points="118.84 315 58.8 10 351.2 10 291.16 315 118.84 315"/>
+  <path class="cls-1" d="m339.04,20l-56.1,285H127.06L70.96,20h268.08M363.36,0H46.64l63.98,325h188.77L363.36,0h0Z"/>
+</svg>

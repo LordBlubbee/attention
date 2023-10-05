@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Sleep" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 72px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: aqua;
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+
+      .cls-2 {
+        font-size: 84px;
+      }
+
+      .cls-3 {
+        font-size: 48px;
+      }
+
+      .cls-6 {
+        fill: #4d4d4d;
+      }
+
+      .cls-7 {
+        fill: #662d91;
+      }
+
+      .cls-4 {
+        font-size: 80px;
+      }
+
+      .cls-8 {
+        fill: #2e3192;
+      }
+
+      .cls-5 {
+        font-size: 60px;
+      }
+
+      .cls-9 {
+        fill: #1b1464;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-9" x="364" y="251" width="95" height="119" rx="2" ry="2"/>
+    <path class="cls-6" d="m449,261v99h-75v-99h75m8-20h-91c-6.6,0-12,5.4-12,12v115c0,6.6,5.4,12,12,12h91c6.6,0,12-5.4,12-12v-115c0-6.6-5.4-12-12-12h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-8" x="64" y="243" width="324" height="148" rx="2" ry="2"/>
+    <path class="cls-7" d="m378,253v128H74v-128h304m8-20H66c-6.6,0-12,5.4-12,12v144c0,6.6,5.4,12,12,12h320c6.6,0,12-5.4,12-12v-144c0-6.6-5.4-12-12-12h0Z"/>
+  </g>
+  <text class="cls-5" transform="translate(198.86 180.19)"><tspan x="0" y="0">Z</tspan></text>
+  <text class="cls-2" transform="translate(376.12 215.56)"><tspan x="0" y="0">Z</tspan></text>
+  <text class="cls-4" transform="translate(314.12 180.56)"><tspan x="0" y="0">Z</tspan></text>
+  <text class="cls-1" transform="translate(256.12 203.56)"><tspan x="0" y="0">Z</tspan></text>
+  <text class="cls-3" transform="translate(150.12 148.56)"><tspan x="0" y="0">Z</tspan></text>
+</svg>

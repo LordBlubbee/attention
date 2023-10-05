@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ATTENTION.ExercisePage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+            <!--x:Name="WaterPageAmount"-->
+            <Label
+                x:Name="ExercisePageAmount"
+                Text="EXERCISE: X"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                FontFamily="OswaldBold"
+                HorizontalOptions="Center" />
+            
+            <Image
+                x:Name="ExerciseTex"
+                Source="attentionwater1.png"
+                SemanticProperties.Description="Exercise!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Do a 10-minute workout!"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Nomnomnom"
+                FontSize="18"
+                FontFamily="OswaldBold"
+                HorizontalOptions="Center" />
+            
+            <!--Listview, bindings-->
+
+            <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
+                <Button
+                x:Name="WALK"
+                Text="Go for a walk"
+                SemanticProperties.Hint="Click to walk"
+                FontFamily="OswaldBold"
+                Clicked="pressWalk"
+                HorizontalOptions="Center" />
+				<Button
+                x:Name="WORKOUT"
+                Text="10 minute workout"
+                SemanticProperties.Hint="Click to do workout"
+                FontFamily="OswaldBold"
+                Clicked="pressWorkout"
+                HorizontalOptions="Center" />
+            </HorizontalStackLayout>
+            
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
