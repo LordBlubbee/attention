@@ -30,7 +30,7 @@ public partial class MainPage : ContentPage, INotifyPropertyChanged
 
 	public void update()
 	{
-        //Two hours spent on bindings not working
+        //Two hours spent on bindings not working: Bug fixen was niet heel leuk of productief, dus besloot toch deprecated Main Thread invoke te gebruiken om het af te krijgen
         //BindableObject.Dispatcher.Dispatch(new Action(() => { }));
 
         Device.BeginInvokeOnMainThread(() =>
