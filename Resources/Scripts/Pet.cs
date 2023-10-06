@@ -16,13 +16,23 @@ namespace ATTENTION.Resources.Scripts
     public class Pet : INotifyPropertyChanged
     {
         public static Pet pet;
+        /*De namen van variabelen zijn nog oud, omdat ik wilde zorgen dat elk van de required aspecten van de eindopdracht er in voor zouden komen
+        Dit zijn:
+        Honger -> Gezond eten (Health/food)
+        Dorst -> Water
+        Verveeld -> Work
+        Eenzaam -> Exercise
+        Overprikkeld -> Behaald via de mechanic dat al je stats limieten hebben, waardoor ze niet meer meetellen
+        Moe -> Rusten (slapen)
+        
+        */
         public float needFood { get; set; } //The need for Food
         public DateTime needFoodTime; //The next time Food must be reduced
         public float needWater { get; set; } //Water
         public DateTime needWaterTime;
-        public float needAttention { get; set; } //Boredom; Attention can also be *too much*, resulting in Overloaded
+        public float needAttention { get; set; } //Work
         public DateTime needAttentionTime;
-        public float needCompany { get; set; } //Need for company, solved by simply logging in
+        public float needCompany { get; set; } //Exercise
         public DateTime needCompanyTime;
         public float needRest { get; set; } //Need rest
         public DateTime needRestTime;
